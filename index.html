@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>MJ Isleta | Graduation 2023</title>
+</head>
+<body>
+  <div class="container">
+    <div class="section1">
+      <div class="d-flex justify-content-center">
+        <div class="header d-flex align-items-center flex-column flex-xl-row">
+          <div class="profile-image"></div>
+          <div class="basic-info text-center text-xl-start">
+            <h1>Marck Jasper Isleta</h1>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <h5>Batangas State University - The National Engineering University</h5>
+          </div>
+        </div> 
+      </div>
+      <div class="message-container d-flex justify-content-center flex-column flex-xl-row align-items-center flex-nowrap">
+        <div class="spacer order-1 order-xl-0"></div>
+        <div class="message p-4 rounded-3">
+          <p>After all the hard works and sacrifices, I can officially say I did it!</p>
+          <p> New journey, here I come. Time to start dreaming of all the possibilities ahead. I am now ready to spread my wings and fly into the future. Time to wave goodbye to school and hello to a whole world of possibilities.</p>
+          <p> Thank you to the people who&#39;s with me all throughout my journey especially to my parents Maya Paciencia Isleta and Jonathan Isleta</p>
+          <p>Long story short, I survived!</p>
+          <p>Academic Affiliation</p>
+          <ul>
+            <li>🏅Dean’s Lister (2020-2023)</li>
+            <li>🏅Best Thesis</li>
+          </ul>
+          <p>Leadership Affiliation</p>
+          <ul>
+            <li>🏅Former President of the Alliance of Informatics and Computing Sciences (2021-2022)</li>
+            <li>🏅Most Outstanding Governor (2022-2023)</li>
+            <li>🏅Supreme Student Council CICS Governor (2022-2023)</li>
+          </ul>
+        </div>
+      </div>
+      <img class="redWave" src="./static/svg/redWave.svg" alt="">
+    </div>
+    <div class="section2 d-flex flex-column justify-content-center text-center">
+      <h1>Graduation Gifts <br> are Officially Open!</h1>
+      <p class="mt-5">Click the button👇</p>
+      <div class="e-wallet-buttons d-flex justify-content-center gap-lg-5 gap-0 flex-wrap">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#gcashModal">
+          <img src="./static/svg/Gcash Button.svg" alt="">
+        </button>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mayaModal">
+          <img src="./static/svg/Maya Button.svg" alt="">
+        </button>
+      </div>
+      <img class="blob" src="./static/svg/blobTopRightAccent.svg" alt="">
+      <img class="blob" src="./static/svg/blobBottomLeftAccent.svg" alt="">
+      <div class="pictures d-flex justify-content-center flex-wrap align-items-center gap-3">
+        <img src="./static/images/GradFormal.jpg" class="img-thumbnail">
+        <img src="./static/images/4-min.jpg" class="img-thumbnail">
+        <img src="./static/images/5-min.jpg" class="img-thumbnail">
+        <img src="./static/images/1-min.jpg"  class="img-thumbnail">
+        <img src="./static/images/2-min.jpg" class="img-thumbnail">
+        <img src="./static/images/3-min.jpg" class="img-thumbnail">
+        <img src="./static/images/6-min.jpg" class="img-thumbnail">
+        <img src="./static/images/cics.png" class="img-thumbnail">
+        <img src="./static/images/rk-1.jpg" class="img-thumbnail">
+        <img src="./static/images/rk-2.jpg" class="img-thumbnail">
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Modals -->
+  <div class="modal fade" id="gcashModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="gcash-inside-modal" src="./static/svg/Gcash Button.svg" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="gcash-qr" src="./static/images/gcashQR.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <a href="./static/images/gcashQR.jpg" download>
+            <button type="button" class="btn btn-secondary">Download QR Code</button>
+          </a>
+          <button type="button" class="btn btn-primary">Open GCash</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mayaModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="gcash-inside-modal" src="./static/svg/Maya Button.svg" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="maya-qr" src="./static/images/mayaQR.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <a href="./static/images/mayaQR.jpg" download>
+            <button type="button" class="btn btn-secondary">Download QR Code</button>
+          </a>
+          <button type="button" class="btn btn-success">Open Maya</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
